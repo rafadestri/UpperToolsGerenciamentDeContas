@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="UpperTool Gerenciamento de contas" Height="418" Width="563">
     <Grid x:Name="FrmLogin" Height="394" VerticalAlignment="Top">
-        <Image HorizontalAlignment="Left" Height="173" Margin="10,0,0,0" VerticalAlignment="Top" Width="353" Source="/logo.png"/>
         <Label Content="Gerenciamento de contas." Margin="83,101,417,285" FontSize="16" FontWeight="Bold"/>
         <Label Content="Email:" HorizontalAlignment="Left" Margin="23,153,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="Senha:" HorizontalAlignment="Left" Margin="23,192,0,0" VerticalAlignment="Top" FontSize="18"/>
@@ -16,5 +15,6 @@
         <Button Content="Login" HorizontalAlignment="Left" Margin="82,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.559,-0.51" Height="29" Width="156"/>
         <CheckBox Content="Esqueci minha senha" HorizontalAlignment="Left" Margin="82,233,0,0" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="84,201,0,0" VerticalAlignment="Top" Width="314" Height="18"/>
+        <Image HorizontalAlignment="Left" Height="173" Margin="10,0,0,0" VerticalAlignment="Top" Width="353" Source="/logo.png"/>
     </Grid>
 </Window>

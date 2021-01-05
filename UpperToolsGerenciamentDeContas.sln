@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFA02034-4C70-492C-A839-8893D90F9FBB}"
 	ProjectSection(SolutionItems) = preProject
 		Documentos\UpperToolsDetalhamento.pptx = Documentos\UpperToolsDetalhamento.pptx
+		Documentos\UseCaseGerenciamentoDecontas.drawio = Documentos\UseCaseGerenciamentoDecontas.drawio
 	EndProjectSection
 EndProject
 Global
