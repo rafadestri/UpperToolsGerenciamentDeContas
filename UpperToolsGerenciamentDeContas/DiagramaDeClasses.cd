@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="UpperToolsGerenciamentDeContas.Admin" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAQAQAAQAAAAAAAAAAwAAEAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UpperToolsGerenciamentDeContas.Cliente" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAQAQAAAAAAAAAAAAAwAAFAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UpperToolsGerenciamentDeContas.TipoConta">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAEAAAAAQAACAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>TipoConta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpperToolsGerenciamentDeContas.Conta">
+    <Position X="5.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEACCQAQgEAAAAgAAAAAAgAAEAAAA=</HashCode>
+      <FileName>Conta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cliente" />
+      <Property Name="TipoConta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UpperToolsGerenciamentDeContas.Arquivo">
+    <Position X="1" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAABwAAAAAAAAQAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Arquivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UpperToolsGerenciamentDeContas.Usuario">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAQAQAAAAAAAAAAAAAwAAEAAAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UpperToolsGerenciamentDeContas.TipoArquivo">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAABAAAAAAAAAACCAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>TipoArquivo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
